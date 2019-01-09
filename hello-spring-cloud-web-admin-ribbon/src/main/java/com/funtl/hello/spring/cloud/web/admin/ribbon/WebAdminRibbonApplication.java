@@ -1,0 +1,22 @@
+package com.funtl.hello.spring.cloud.web.admin.ribbon;
+
+import org.apache.catalina.loader.WebappClassLoader;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.netflix.hystrix.EnableHystrix;
+import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
+
+/**
+ * @author Mr.Huang
+ * @create 2019-01-09 18:31
+ */
+@SpringBootApplication
+@EnableDiscoveryClient
+@EnableHystrix
+@EnableHystrixDashboard
+public class WebAdminRibbonApplication {
+    public static void main(String[] args) {
+        SpringApplication.run ( WebAdminRibbonApplication.class );
+    }
+}
