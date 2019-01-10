@@ -6,7 +6,7 @@ spring:
       label: master
       server:
         git:
-          uri: http://192.168.232.135:8082/itoken/itoken-config.git
+          uri: http://192.168.232.135:8082/user/myshop.git
           search-paths: respo
           username: user
           password: 12345678
