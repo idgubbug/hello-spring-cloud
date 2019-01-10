@@ -6,10 +6,10 @@ spring:
       label: master
       server:
         git:
-          uri: https://github.com/idgubbug/-GitHub_demo.git
+          uri: http://192.168.232.135:8082/itoken/itoken-config.git
           search-paths: respo
-          username: 643051140@qq.com
-          password: ..zhang123...
+          username: user
+          password: 12345678
 
 server:
   port: 8888
